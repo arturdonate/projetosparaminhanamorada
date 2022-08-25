@@ -4,6 +4,37 @@ body{
 }
 
 
+body{
+    background-color: rgb(84, 103, 212);
+}
+
+
+/*Link não visitado */
+
+
+
+a:link {
+    color: rgb(0, 119, 128);
+    text-decoration: none;
+  }
+  
+  /*Link já visitado*/
+  a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  /*Quando o mouse passa por cima*/
+  a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  /*Link ativo/selecionado*/
+  a:active {
+    color: rgb(247, 39, 39);
+    text-decoration: none;
+  }
 /*Link não visitado */
 
 
